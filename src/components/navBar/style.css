@@ -1,0 +1,89 @@
+.navigation {
+  display: grid;
+  position: sticky;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto 1fr auto;
+  padding-inline-start: 40px;
+  padding-block-start: 1.25rem;
+  padding-inline-end: 40px;
+  gap: 18px;
+}
+.logo-info {
+  color: black;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.2;
+  padding-inline-start: 9px;
+  border-inline-start: 1px solid grey;
+}
+.logo > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a > picture {
+  inline-size: 85px;
+  min-inline-size: 85px;
+}
+
+.logo,
+.login-register,
+.helpers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3125rem;
+  block-size: 2.875;
+  border: 1px solid rgba(206, 206, 234, 1);
+  border-radius: 14px;
+  box-shadow: 0 4px 6px 0 rgba(67 46 134 0.04);
+  padding: 12px;
+}
+.helpers {
+  margin-right: 200px;
+}
+a {
+  text-decoration: none;
+}
+
+.btn {
+  color: white;
+  font-weight: 850;
+  padding-inline-start: 0.75rem;
+  padding-inline-end: 0.75rem;
+}
+
+.helpers-boxes {
+  border: none;
+  display: flex;
+  gap: 18px;
+}
+.boxes-123 > button {
+  background-color: white;
+  border: none;
+  color: black;
+}
+.letter-help {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+.box-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn-register {
+  margin-inline-start: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: none;
+  block-size: 2.25rem;
+  padding-inline-start: 0.005rem;
+  padding-inline-end: 0.005rem;
+  background: linear-gradient(56deg, #45c4f9, #7d09ff 50.33%, #ff0be5);
+}

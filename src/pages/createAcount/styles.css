@@ -1,0 +1,129 @@
+.login-page-new {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: #fafbfc;
+}
+.login-page-logo {
+  color: inherit;
+  position: fixed;
+  top: 34px;
+  left: 34px;
+  z-index: 10;
+}
+.logo-text {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.8125rem;
+}
+.new-top-rigth {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.top-rigth-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #292d34;
+  margin-right: 20px;
+}
+.signup-top-rigth {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  padding: 0 20px;
+  height: 40px;
+  color: #fff;
+  border-radius: 9px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(127, 119, 241);
+  background-color: rgb(95, 85, 238);
+}
+.top-divider {
+  height: 100px;
+  flex-shrink: 0;
+}
+.login-page-new_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-grow: 1;
+  padding-bottom: 70px;
+}
+.signup_main {
+  width: 480px;
+  background-color: #fff;
+  box-shadow: 0 24px 64px #26214a1a;
+  border-radius: 12px;
+  padding: 30px 60px;
+  position: relative;
+}
+
+.title-form {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #292d34;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.signup-page-new {
+  position: relative;
+}
+.onBoarding {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #7c828d;
+  background-color: #fafbfc;
+  position: absolute;
+  left: -60px;
+  bottom: -55px;
+  width: calc(100% + 120px);
+  border-radius: 0 0 12px 12px;
+  border-top: 1px solid #e9ebf0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 31px;
+  padding: 4px 16px;
+}
+.cu-link {
+  padding: 0 3px;
+}
+.bot-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 0;
+}
+.main-bot-logos {
+  width: 60px;
+  height: 15px;
+  margin: 10px 15px;
+}
+
+.login-page-teams {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 35px;
+  color: grey;
+}
