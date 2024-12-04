@@ -55,7 +55,7 @@ export const FormRegister = () => {
             correo electronico
           </label>
           <input
-            placeholder="jhondoe@gmail.com"
+            placeholder="jhon-doe@example.com"
             className="cu-form-input"
             type="text"
             name="email"

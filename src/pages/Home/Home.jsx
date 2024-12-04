@@ -65,16 +65,22 @@ export const Home = () => {
                       <div className="products">
                         <div className="free-fire">
                           <img
+                            className="icon-home"
                             width={90}
                             src="src\assets\freefire-1.svg"
                             alt=""
                           />
                         </div>
                         <div className="netflix">
-                          <img src="src\assets\icons8-netflix.svg" alt="" />
+                          <img
+                            className="icon-home"
+                            src="src\assets\icons8-netflix.svg"
+                            alt=""
+                          />
                         </div>
                         <div>
                           <img
+                            className="icon-home"
                             width={80}
                             src="src\assets\icons8-hbo-96.svg"
                             alt="HBO"
@@ -82,6 +88,7 @@ export const Home = () => {
                         </div>
                         <div>
                           <img
+                            className="icon-home"
                             width={80}
                             src="src\assets\icons8-xbox-game-pass.svg"
                             alt=""
@@ -89,12 +96,14 @@ export const Home = () => {
                         </div>
                         <div>
                           <img
+                            className="icon-home"
                             src="src\assets\icons8-play-station-100.svg"
                             alt=""
                           />
                         </div>
                         <div>
                           <img
+                            className="icon-home"
                             width={80}
                             src="src\assets\MagicTV_logo.svg"
                             alt=""

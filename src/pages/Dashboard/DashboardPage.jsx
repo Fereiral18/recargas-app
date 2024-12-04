@@ -1,12 +1,11 @@
-import React from "react";
+import { NavBarDashboard } from "../../components/navBar/navBarDashboard";
 import "../Dashboard/style.css";
-import { Navbar } from "../../components/navBar/Navbar";
 
 export const DashboardPage = () => {
   return (
     <>
       <div className="nav">
-        <Navbar />
+        <NavBarDashboard />
       </div>
       <main></main>
     </>

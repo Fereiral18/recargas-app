@@ -6,6 +6,7 @@
   flex-direction: column;
   overflow-y: auto;
   background-color: #fafbfc;
+  overflow-x: hidden;
 }
 .login-page-logo {
   color: inherit;
@@ -51,6 +52,9 @@
   box-shadow: 0 10px 25px rgba(127, 119, 241);
   background-color: rgb(95, 85, 238);
 }
+.new-top-rigth a:hover {
+  background-color: rgb(84, 77, 201);
+}
 .top-divider {
   height: 100px;
   flex-shrink: 0;
@@ -68,8 +72,23 @@
   background-color: #fff;
   box-shadow: 0 24px 64px #26214a1a;
   border-radius: 12px;
-  padding: 30px 60px;
+  padding: 10px 60px;
   position: relative;
+}
+.cu-background-login-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.img-background-login-register {
+  position: absolute;
+  background: linear-gradient(56deg, #45c4f9, #5104aa 50.33%, #1102e6);
+  width: 105%;
+  height: 80%;
+  left: 0.5rem;
+  border-radius: 220px;
+  transform: rotate(-9deg);
 }
 
 .title-form {
@@ -107,6 +126,8 @@
   padding: 0 3px;
 }
 .bot-logos {
+  position: relative;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,15 +136,39 @@
 .main-bot-logos {
   width: 60px;
   height: 15px;
-  margin: 10px 15px;
+  margin: 20px 15px;
 }
-
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.register-page-teams {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  opacity: 0.6;
+  text-align: center;
+  margin-top: 15px;
+  color: rgb(214, 211, 211);
+}
 .login-page-teams {
   font-size: 12px;
   font-weight: 700;
   line-height: 17px;
-  text-align: center;
   opacity: 0.6;
-  margin-top: 35px;
-  color: grey;
+  text-align: center;
+  margin: -100px 0 30px 0;
+  color: white;
+}
+.login-page-teams > a {
+  color: white;
+}
+.text-register {
+  color: white;
+}
+.register-btn-not-count {
+  margin: 0 0 0 5px;
+  color: white;
 }

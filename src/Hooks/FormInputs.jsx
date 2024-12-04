@@ -10,6 +10,7 @@ export const FormInputs = (initialForm = {}) => {
   const onResetForm = () => {
     setFormulario(initialForm);
   };
+
   return {
     ...formulario,
     formulario,

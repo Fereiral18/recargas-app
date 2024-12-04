@@ -34,6 +34,7 @@ export const Form = () => {
           <input
             className="cu-form-input"
             required
+            placeholder="Ingresa tu correo electrónico de trabajo"
             type="text"
             name="email"
             value={email}
@@ -48,6 +49,7 @@ export const Form = () => {
             contraseña
           </label>
           <input
+            placeholder="Escribe la contraseña"
             className="cu-form-input"
             required
             type="password"
@@ -58,9 +60,11 @@ export const Form = () => {
           <div className="cu-form-icon">
             <LockIcon sx={{ width: "20px" }} />
           </div>
-          <div>
-            <Link>¿Olvidaste la contraseña?</Link>
-          </div>
+
+          <Link>
+            {" "}
+            <button className="show-pwd">¿olvidaste la contraseña?</button>
+          </Link>
         </div>
         <div className="separation cu-form_row">
           <div className="line"></div>

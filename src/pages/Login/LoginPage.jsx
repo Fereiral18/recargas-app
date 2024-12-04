@@ -23,8 +23,10 @@ export const Login = () => {
           </nav>
         </div>
         <div className="login-page-new_main">
-          <div>imagen de fondo</div>
-          <div>
+          <div className="cu-background-login-register">
+            <div className="img-background-login-register"></div>
+          </div>
+          <div className="container">
             <div className="signup_main">
               <div>
                 <div className="signup-page-new">
@@ -34,7 +36,13 @@ export const Login = () => {
             </div>
             <div>
               <div className="bot-logos">
-                ¿No tienes cuenta?<Link to="/create">Registrate</Link>
+                <span className="text-register">
+                  ¿No tienes cuenta?
+                  <Link to="/create" className="register-btn-not-count">
+                    {" "}
+                    Registrate
+                  </Link>
+                </span>
               </div>
             </div>
           </div>

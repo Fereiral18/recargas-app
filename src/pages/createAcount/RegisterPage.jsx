@@ -25,8 +25,10 @@ export const CreateAcount = () => {
           </nav>
         </div>
         <div className="login-page-new_main">
-          <div>imagen de fondo</div>
-          <div>
+          <div className="cu-background-login-register">
+            <div className="img-background-login-register"></div>
+          </div>
+          <div className="container">
             <div className="signup_main">
               <div>
                 <div className="signup-page-new">
@@ -48,7 +50,7 @@ export const CreateAcount = () => {
               <div className="main-bot-logos">
                 <img
                   className="corporation"
-                  src="src\assets\netflix-4.svg"
+                  src="src\assets\icons8-netflix.svg"
                   width="60px"
                   alt=""
                 />
@@ -70,7 +72,7 @@ export const CreateAcount = () => {
                 <img src="src\assets\icons8-tiro-libre.svg" alt="" />
               </div>
             </div>
-            <div className="login-page-teams">
+            <div className="register-page-teams">
               Descubre por que somos la plataforma mas confiable y segura al
               momento de recargar.
             </div>
