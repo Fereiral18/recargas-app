@@ -43,10 +43,13 @@
   border: none;
   background-color: white;
 }
-.separation {
+.separations {
+  height: 20px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 .circle {
   color: hsl(220, 2%, 71%);

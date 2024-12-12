@@ -11,7 +11,10 @@ export const Navbar = () => {
       <nav className="navigation">
         <div className="logo">
           <Link to="/">
-            <picture>logo </picture>
+            <img
+              className="logo-init-home"
+              src="src\assets\WhatsApp Image 2024-12-12 at 1.29.27 AM.jpeg"
+            />
             <span className="logo-info">la mejor APP para recargas</span>
           </Link>
         </div>
@@ -79,16 +82,18 @@ export const Navbar = () => {
           <>
             <div className="login-register">
               <span className="box-login">
-                <Link to="/login">Iniciar sesión</Link>
-
-                <div className="register-button">
-                  <button className="btn-register">
-                    <Link to="create" className="btn">
-                      Crear cuenta
-                    </Link>
-                  </button>
-                </div>
+                <Link to="/login" className="btn-login">
+                  Iniciar sesión
+                </Link>
               </span>
+
+              <div className="register-button">
+                <button className="btn-register">
+                  <Link to="create" className="btn">
+                    Crear cuenta
+                  </Link>
+                </button>
+              </div>
             </div>
           </>
         )}

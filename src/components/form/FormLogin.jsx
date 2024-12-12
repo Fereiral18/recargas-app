@@ -66,7 +66,7 @@ export const Form = () => {
             <button className="show-pwd">¿olvidaste la contraseña?</button>
           </Link>
         </div>
-        <div className="separation cu-form_row">
+        <div className="separations cu-form_row">
           <div className="line"></div>
           <div className="circle">O</div>
           <div className="line"></div>

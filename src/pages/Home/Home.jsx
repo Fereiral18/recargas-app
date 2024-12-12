@@ -55,9 +55,6 @@ export const Home = () => {
                       </div>
                     </div>
                     <div>
-                      --aqui ira una foto de la app interna al logearse--
-                    </div>
-                    <div>
                       <div className="aditional-info">
                         <div className="color-background"></div>
                         <p>Confiado por miles de personas a nivel nacional.</p>
@@ -65,7 +62,7 @@ export const Home = () => {
                       <div className="products">
                         <div className="free-fire">
                           <img
-                            className="icon-home"
+                            className="icon-homes"
                             width={90}
                             src="src\assets\freefire-1.svg"
                             alt=""
@@ -73,14 +70,14 @@ export const Home = () => {
                         </div>
                         <div className="netflix">
                           <img
-                            className="icon-home"
+                            className="icon-homes"
                             src="src\assets\icons8-netflix.svg"
                             alt=""
                           />
                         </div>
                         <div>
                           <img
-                            className="icon-home"
+                            className="icon-homes"
                             width={80}
                             src="src\assets\icons8-hbo-96.svg"
                             alt="HBO"
@@ -88,7 +85,7 @@ export const Home = () => {
                         </div>
                         <div>
                           <img
-                            className="icon-home"
+                            className="icon-homes"
                             width={80}
                             src="src\assets\icons8-xbox-game-pass.svg"
                             alt=""
@@ -96,19 +93,23 @@ export const Home = () => {
                         </div>
                         <div>
                           <img
-                            className="icon-home"
+                            className="icon-homes"
                             src="src\assets\icons8-play-station-100.svg"
                             alt=""
                           />
                         </div>
                         <div>
                           <img
-                            className="icon-home"
+                            className="icon-homes"
                             width={80}
                             src="src\assets\MagicTV_logo.svg"
                             alt=""
                           />
                         </div>
+                      </div>
+                      <div className="img-home-container">
+                        <div className="img-background-home"></div>
+                        <img src="src\assets\dashboard.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -123,14 +124,13 @@ export const Home = () => {
           <div className="info-1">
             <div>
               <h3 className="garantice">
-                (nombre de la app) Los reemplaza por completo
+                RecarGamers Los reemplaza por completo
               </h3>
               <p className="garantice">
                 Elimine la expansión de aplicaciones, evite estafas y perdida de
                 tiempo.
               </p>
             </div>
-            <div>picture</div>
           </div>
           <div className="info-2">
             <div>
@@ -141,7 +141,6 @@ export const Home = () => {
                 nosotros.
               </p>
             </div>
-            <div>picture</div>
           </div>
         </div>
         <footer>

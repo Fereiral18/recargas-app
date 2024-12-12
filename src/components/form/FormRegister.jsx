@@ -32,7 +32,7 @@ export const FormRegister = () => {
   return (
     <>
       <h1 className="title-form">¡Regístrate en segundos!</h1>
-      <form className="signup-form">
+      <form onSubmit={onLogin} className="signup-form">
         <div className="cu-form_row">
           <label htmlFor="" className="form_label">
             Nombre y Apellido
@@ -86,7 +86,7 @@ export const FormRegister = () => {
             Mostrar
           </button>
         </div>
-        <div className="separation cu-form_row">
+        <div className="separations cu-form_row">
           <div className="line"></div>
           <div className="circle">O</div>
           <div className="line"></div>
