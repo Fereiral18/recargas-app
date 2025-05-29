@@ -109,10 +109,11 @@ a {
   block-size: 2.25rem;
   padding-inline-start: 0.005rem;
   padding-inline-end: 0.005rem;
-  background: linear-gradient(254.25deg, #fa12e3 -31.16%, #7612fa 74.17%);
+  background-color: #0d165a;
 }
 .btn-register:hover {
-  background: #6609e0;
+  background: 
+  #1102e6;
 }
 .cu-box-dashboard-info {
   display: flex;

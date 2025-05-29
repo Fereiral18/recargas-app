@@ -27,7 +27,7 @@
   align-items: center;
 }
 .button-login > a {
-  background: linear-gradient(56deg, #45c4f9, #7d09ff 50.33%, #ff0be5);
+  background: #0d165a;
   color: white;
   font-size: 23px;
   box-shadow: 0 4px 4px 0 rgba(87, 75, 172, 0.15);
@@ -74,7 +74,7 @@
 }
 .info-2 {
   border-radius: 15px;
-  background: linear-gradient(352deg, #6731ec 1.65%, #44cfff 118.4%);
+  background: #4362eb
 }
 .info-1:hover,
 .info-2:hover {
@@ -85,7 +85,7 @@
   color: white;
 }
 .information-images > div {
-  background-color: #7d09ff;
+  background-color: #4362eb;
 }
 
 .products {
@@ -181,10 +181,8 @@ footer {
   position: absolute;
   background: linear-gradient(
     137deg,
-    rgb(3, 167, 231) 23%,
-    rgba(250, 18, 227, 1) 60%,
-    rgba(118, 18, 250, 1) 80%
-  );
+     #45c4f9, #5104aa 50.33%, #1102e6);
+  ;
   width: 110%;
   inset-inline-start: -70px;
   border-radius: 500px;
