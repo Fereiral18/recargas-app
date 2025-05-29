@@ -1,15 +1,24 @@
 import * as React from "react";
 
 import { Link } from "react-router-dom";
-import { NavBarDashboard } from "../../components/navBar/navBarDashboard";
+
 import HomeIcon from "@mui/icons-material/Home";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import HelpIcon from "@mui/icons-material/Help";
 import PersonAddAltIcon from "@mui/icons-material/PersonAddAlt";
 import "../Dashboard/style.css";
+import { NavBarDashboard } from "../../components/navBar/NavBarDashboard";
+import { useState } from "react";
 
 export const DashboardPage = () => {
-  return (
+
+  const [gamesOrPlataform, setGamesOrPlataform] = useState(null)
+  const handleOnClickGamesOrPlataform = (buttonId) => {
+    setGamesOrPlataform(buttonId)
+   
+  }
+  console.log(gamesOrPlataform)
+return(
     <>
       <div className="dashboard-container">
         <div className="nav">
@@ -50,11 +59,11 @@ export const DashboardPage = () => {
 
               <div className="categories">
                 <div className="btn-categories">
-                  <button>Plataformas</button>
+                  <button onClick={()=>handleOnClickGamesOrPlataform('plataforma')}>Plataformas</button>
                 </div>
                 <div className="separation"></div>
                 <div className="btn-categories">
-                  <button>Juegos</button>
+                  <button name="juegos" onClick={()=>handleOnClickGamesOrPlataform('juegos')}>Juegos</button>
                 </div>
               </div>
               <div className="apps-container-dashboard">

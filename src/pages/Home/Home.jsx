@@ -3,8 +3,9 @@ import "../Home/style.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import { Navbar } from "../../components/navBar/Navbar";
+
 import { Link } from "react-router-dom";
+import { Navbar } from "../../components/navBar/NavBar";
 
 export const Home = () => {
   return (

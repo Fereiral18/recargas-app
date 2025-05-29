@@ -136,7 +136,7 @@
   align-items: center;
   border: 1px rgba(232, 234, 237, 1) solid;
   border-radius: 8px;
-  filter: blur(0.05rem);
+ 
 }
 .img-products > img {
   height: 150px;
@@ -144,6 +144,5 @@
 }
 .info-box:hover {
   background-color: rgb(222, 223, 224);
-  filter: blur(0px);
   box-shadow: 0 15px 15px 0 rgba(27, 7, 92, 0.04);
 }

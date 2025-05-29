@@ -181,7 +181,7 @@ footer {
   position: absolute;
   background: linear-gradient(
     137deg,
-    rgba(255, 215, 0, 1) 23%,
+    rgb(3, 167, 231) 23%,
     rgba(250, 18, 227, 1) 60%,
     rgba(118, 18, 250, 1) 80%
   );
